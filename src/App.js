@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg'; 교육을 위해 지움
+// import './App.css'; 교육을 위해 지움
 
 function App() {
   return (
     <div className="App">
+      <h1>REACT LET'S GET IT</h1>
+      {/* 교육을 위해 지움
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +20,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> 
+      */}
     </div>
   );
 }
